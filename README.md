@@ -6,3 +6,5 @@ Vidit:Dussehra game is a new game by Vidit Keshari. It is available on https://v
 The file image_rotater.py is a python file which uses PIL IMAGE lib to rotate images. Transparent background images are rotated without any change in the background. Available at /resources/image_rotater.py
 (resorces/image_rotater.py)
 Vidit.image_rotater.py available for downloading in the game console. Access it by right click > inspect > console, or press F12 > console. pressing CTRL + SHIFT + I or CTRL + SHIFT + J also opens developer options.
+Ignore the "Harmful file" warning if you really want to download Vidit.image_rotater.py.
+# END
