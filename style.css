@@ -1,0 +1,109 @@
+html {
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: rgb(100, 255, 250);
+    background: linear-gradient(0deg, rgb(100, 255, 250) 0%, rgb(16, 169, 189) 50%, rgb(30, 27, 207) 100%);
+    background: -moz-linear-gradient(0deg, rgb(100, 255, 250) 0%, rgb(16, 169, 189) 50%, rgb(30, 27, 207) 100%);
+    background: -webkit-linear-gradient(0deg, rgb(100, 255, 250) 0%, rgb(16, 169, 189) 50%, rgb(30, 27, 207) 100%);
+}
+
+#header {
+    width: 100%;
+    top: 0;
+    padding: 1%;
+}
+
+#heading {
+    font-size: 250%;
+}
+
+.note {
+    font-size: large;
+}
+
+#note>b {
+    color: crimson;
+    font-weight: bolder;
+}
+
+canvas {
+    border-color: blue;
+    border-width: 10px;
+    border-style: ridge;
+}
+
+#player-lives {
+    float: left;
+    margin-left: 20%;
+    font-family: cursive, 'sans-serif';
+    font-weight: bolder;
+    font-size: large;
+}
+
+#ravan-health {
+    float: right;
+    margin-right: 20%;
+    font-family: cursive, 'sans-serif';
+    font-weight: bolder;
+    font-size: large;
+}
+
+#txt-aligner {
+    padding: 0;
+}
+
+#copyright-footer {
+    width: 100%;
+    bottom: 0;
+    background-color: silver;
+    position: fixed;
+    border: 2px ridge blue;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#footer-contents {
+    box-shadow: 1px 1px 30px gray;
+    border-width: 2px;
+    border-color: blue;
+    border-style: outset;
+    width: fit-content;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#copyright-footer>#footer-contents>#up {
+    margin-bottom: 1% !important;
+}
+
+#player-lives {
+    color: greenyellow;
+}
+
+#ravan-health {
+    color: crimson;
+}
+
+.btn-info {
+    cursor: default;
+}
+
+h3 {
+    font-size: larger !important;
+}
+
+p {
+    font-size: large;
+    font-style: oblique;
+    color: gray;
+    background-color: rgba(0, 255, 255, 0.795);
+    border-radius: 15px;
+    border-color: aquamarine;
+    font-family: fantasy;
+    font-weight: lighter;
+    box-shadow: 1px 1px 30px blue;
+    text-shadow: 1px 1px 25px rgba(0, 186, 243, 0.932);
+}

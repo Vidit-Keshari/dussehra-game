@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dussehra game</title>
+    <link rel="icon" type="image/png" href="resources/ram_and_ravan.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+    <div id="contents">
+        <center>
+            <div id="header" class="btn btn-info">
+                <h1 id="heading">Dussehra web game for kids</h1>
+                <span id="txt-alinger">
+                    <label id="note" class="note">Note:- Children above <b>13 yrs</b> of age may find it boring.</label>
+                </span>
+            </div>
+            <br><br>
+            <div id="attack-note">
+                <label class="btn btn-warning note">Attacks are only valid on navel</label>
+            </div>
+            <br><br>
+            <div id="game-info">
+                <h3 class="btn btn-info note">About</h3>
+                <p id="about">This game is based on a Hindu mythological story Ramayan. The player is lord Ram and
+                    your opponent is the Ravan. To win, you have to kill Ravan. there is aim given, when it is on
+                    the correct position, which is the navel of Ravan, you have to shoot the arrow. Pressing 'f' key
+                    loads the arrow. Releasing the 'f' key shoots it. Pressing and holding 'f' key can result in
+                    errors. Double pressing 'f' result in game breaking error, do not press 'f' twice</p>
+            </div>
+            <br><br>
+            <div id="stats">
+                <label id="game-restart-repair-status" class="btn btn-warning"></label>
+                <br><br>
+                <label id="win-status" class="btn btn-info"></label>
+                <br><br>
+                <div id="health">
+                    <label id="player-lives" class="btn btn-info">Lives left: 3</label>
+                    <label id="ravan-health" class="btn btn-info">Ravan's health: 100%</label>
+                </div>
+            </div>
+            <br><br>
+            <div id="game-area">
+                <br>
+                <div id="canvas"></div>
+                <br>
+                <div id="error-troubleshoot-btn">
+                    <h3 class="btn btn-info">Troubleshoot errors:- </h3>
+                    <br><br>
+                    <button onclick="troubleshoot();" class="btn btn-primary">Troubleshoot any error by entering error
+                        name or number.</button>
+                    <br><br>
+                    <button onclick="repairArrow();" class="btn btn-primary">If you get a arrow error, click here to fix
+                        the error.</button>
+                    <br><br>
+                    <button onclick="gameRestart();" class="btn btn-primary">You can restart to fix all issues</button>
+                </div>
+                <br><br>
+                <div id="cheats-btn">
+                    <h3 class="btn btn-info">Cheats:- </h3>
+                    <br><br>
+                    <button class="btn btn-primary" onclick="lifeCTRL('reset')">Reset lives of ram</button>
+                    <br><br>
+                    <button class="btn btn-primary" onclick="healthCTRL('kill');">Kill ravan</button>
+                    <br><br>
+                    <button onclick="aimCheat();" class="btn btn-primary">Fix aim on navel of ravan</button>
+                    <br><br>
+                    <button onclick="fireCTRL('display');" class="btn btn-primary">Put ravan on fire</button>
+                    <br><br>
+                    <label class="note btn btn-info">Using some cheats gives out errors, if you want to use cheats,
+                        please ignore the
+                        error. Troubleshooting the error will also set the the cheat to off.</label>
+                </div>
+            </div>
+            <div id="bug-report-area">
+                <br><br>
+                <h3 class="btn btn-info">Bug report area</h3>
+                <br><br>
+                <button class="btn btn-primary" onclick="gmail();">If you find a bug, please report it to me as soon as
+                    possible.</button>
+            </div>
+        </center>
+        <br><br><br><br><br><br>
+        <div id="copyright-footer">
+            <center>
+                <div id="footer-contents" onclick="copyright();">
+                    Made by Vidit Keshari
+                    <br>
+                    Dussehra Game<b id="up">&copy;</b>
+                    <br>@All rights reserved
+                </div>
+            </center>
+        </div>
+    </div>
+</body>
+
+</html>
