@@ -13,9 +13,9 @@ Ignore the "Harmful file" warning if you really want to download Vidit.image_rot
 Initiated game
 #
 # v.1.1
-Added about section. 
-Improved styles. 
-Added version notation. 
-fixed footer bug. 
+Added about section, 
+Improved styles, 
+Added version notation, 
+fixed footer bug,
 #
 # END
