@@ -33,6 +33,9 @@ canvas {
     border-color: blue;
     border-width: 10px;
     border-style: ridge;
+    animation-name: test;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
 
 #player-lives {
@@ -59,7 +62,7 @@ canvas {
     width: 100%;
     bottom: 0;
     background-color: silver;
-    position: fixed;
+    position: sticky;
     border: 2px ridge blue;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -106,4 +109,46 @@ p {
     font-weight: lighter;
     box-shadow: 1px 1px 30px blue;
     text-shadow: 1px 1px 25px rgba(0, 186, 243, 0.932);
+}
+
+#vidit {
+    width: 100px;
+    height: 100px;
+    border-radius: 75px;
+    border-color: blue;
+    border-width: 2px;
+    border-style: groove;
+    animation-name: img;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+#about-info {
+    line-height: 10px;
+    text-shadow: 0px 1px 10px rgb(111, 255, 255)
+}
+
+#ver-holder,
+.version {
+    float: right;
+}
+
+@keyframes test {
+    from {
+        box-shadow: 0px, 0px, 20px, aqua;
+    }
+
+    to {
+        box-shadow: 0px, 0px 20px blue;
+    }
+}
+
+@keyframes img {
+    from {
+        box-shadow: -10px -10px 30px blue;
+    }
+
+    to {
+        box-shadow: 10px 10px 30px blueviolet;
+    }
 }
