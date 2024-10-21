@@ -15,13 +15,13 @@ Initiated game.
 ####
 ### v.1.1
 Added about section, 
-###
+
 Improved styles, 
-###
+
 Added version notation, 
-###
+
 fixed footer bug.
-###
+
 :)
 ###
 # END
