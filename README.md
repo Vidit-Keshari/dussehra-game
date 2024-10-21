@@ -10,7 +10,8 @@ Ignore the "Harmful file" warning if you really want to download Vidit.image_rot
 #
 # About Versions:-
 # v.1.0
-Initiated game
+Initiated game. 
+:)
 #
 # v.1.1
 Added about section, 
