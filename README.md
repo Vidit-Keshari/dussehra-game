@@ -8,3 +8,4 @@ The file image_rotater.py is a python file which uses PIL IMAGE lib to rotate im
 Vidit.image_rotater.py available for downloading in the game console. Access it by right click > inspect > console, or press F12 > console. pressing CTRL + SHIFT + I or CTRL + SHIFT + J also opens developer options.
 Ignore the "Harmful file" warning if you really want to download Vidit.image_rotater.py.
 # END
+v.1.0
