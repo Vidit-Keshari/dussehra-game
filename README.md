@@ -16,6 +16,7 @@ Initiated game
 Added about section, 
 Improved styles, 
 Added version notation, 
-fixed footer bug,
+fixed footer bug.
+:)
 #
 # END
