@@ -17,11 +17,15 @@ Initiated game.
 Added about section, 
 Improved styles, 
 Added version notation, 
-fixed footer bug.
+fixed footer bug. 
 :)
 ####
 ### v.1.1.2
-Added configurations so that game does not lag due to heavy code.
+Added configurations so that game does not lag due to heavy code. 
+:)
+####
+###v.1.1.3
+Fixed canvas bug when game couldn't find network to work. 
 :)
 ####
 # END
