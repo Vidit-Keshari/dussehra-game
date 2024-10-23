@@ -1,0 +1,13 @@
+{
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true, // !!!
+        "strings": true // !!!
+    },
+    "[markdown]": {
+        "editor.quickSuggestions": true
+    },
+    "[javascript]": {
+        "editor.quickSuggestions": true
+    }
+}
