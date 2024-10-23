@@ -20,4 +20,8 @@ Added version notation,
 fixed footer bug.
 :)
 ####
+### v.1.1.2
+Added configurations so that game does not lag due to heavy code.
+:)
+####
 # END
