@@ -24,7 +24,7 @@ fixed footer bug.
 Added configurations so that game does not lag due to heavy code. 
 :)
 ####
-###v.1.1.3
+### v.1.1.3
 Fixed canvas bug when game couldn't find network to work. 
 :)
 ####
