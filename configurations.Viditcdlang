@@ -1,0 +1,79 @@
+#define Vidit Coding Language;
+#import net from Vidit;
+#import cmd from Vidit;
+#import call from Vidit;
+#import config from Vidit;
+
+using internet ${from} Vidit.net;
+using internet ${short} Vidit.net.internet;
+using go ${from} Vidit.cmd;
+using go ${short} Vidit.cmd.go;
+
+#Vidit.net.internet;
+#Vidit.cmd.go;
+
+namespace Vidit.net, Vidit.cmd;
+namespace Vidit ${for} call, config;
+
+#define usr;
+user = main.js--player;
+user = p5.js--player;
+user = Vidit: Dussehra Game--player;
+user.get(internet);
+str usr = user;
+
+if (got(internet)) {
+START; //Code start
+}
+
+config(main.js);
+config(index.html);
+config(style.css);
+config(settings.json);
+config(dir:resources/).set(r);
+config(r:content:image);
+config(dir:r:py editors/).set(pye);
+config(pye:content:python);
+config(documentCodeHTML.getTAG{<head><script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script></head>});
+
+debug(config);
+debug(p5);
+
+load(r:content:image);
+
+call(main.js).load("Functions");
+call(main.js).load("Variables");
+call(style.css).load("Styles");
+
+function load() {
+    Vidit.load(blockDefined);
+    defined.block.run();
+    #define run;
+    #initialise run(debug) LOCAL;
+}
+
+function debug() {
+    #define debug() ${for} {
+        Vidit.get()
+    }
+}
+
+END; //Code end
+
+#requirements = internet, main.js config load;
+#Vidit Keshari;
+#Auth-or/enticated-person = Vidit;
+
+using Vidit.cmd --> throw('json')@'line-emp '+> 'line-!emp';
+
+cmd.go(run, executable: "\`json");
+
+```json 
+{
+    "configrationsSubstitute": "configurations.Viditcdlang",
+    "works": default,
+    "fakeHack": false
+};
+
+#File end;
+//Viditcdlang end file
