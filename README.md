@@ -28,4 +28,11 @@ Added configurations so that game does not lag due to heavy code.
 Fixed canvas bug when game couldn't find network to work. 
 :)
 ####
+### v.1.2
+Updated html and css code, 
+Introduced new formats in the code, 
+Improved styles in game.
+##### Game new version available [here](https://vidit-keshari.github.io/dussehra-game). This is the same link as given above. 
+:)
+####
 # END
