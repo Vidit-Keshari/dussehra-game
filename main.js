@@ -12,6 +12,7 @@ var error_code, error_type, error_description;
 var interval, interval2, interval3, interval4;
 var check_CHEAT_use = false;
 var check_interval2 = true;
+let configDetail = "configurations.ViditcdLang";
 const cheat = [
     "Reset_Lives_CHEAT",
     "Kill_Ravan_CHEAT",
@@ -26,7 +27,8 @@ const ERR = [
         703,
         704,
         705,
-        706
+        706,
+        707
     ],
     error_type = [
         "error.Vidit",
@@ -36,7 +38,8 @@ const ERR = [
         ".got(!arrow_loaded || arrow.corrupted)",
         "massFail(arrow error)",
         ".got(!aimMovement)",
-        "fireDisplayedBeforeWin(CHEAT)"
+        "fireDisplayedBeforeWin(CHEAT)",
+        "load(!configDetail)"
     ],
     error_description = [
         "File_Detail_Fetch_ERR",
@@ -46,7 +49,8 @@ const ERR = [
         "Arrow_Corrupt_ERR",
         "Mass_Failure_Due_To_Arrow_Error_ERR",
         "Aim_Movement_ERR",
-        "Fire_Displayed_Before_Win_ERR"
+        "Fire_Displayed_Before_Win_ERR",
+        "ConfigDetail_load_ERR"
     ]
 ];
 
@@ -149,11 +153,38 @@ document.addEventListener('DOMContentLoaded', () => {
             .catch(error => {
                 console.error("Error fetching file detils " + error);
                 console.error("Error code: " + ERR[2][0] + " | " + ERR[0][0] + " | " + ERR[1][0] + ERR[1][1]);
-                console.error("FIle: image_rotater.py");
+                console.error("File: image_rotater.py");
+            });
+
+            fetch("configurations.Viditcdlang")
+            .then(response => {
+                console.log("Configured and debuged by configurations.Viditcdlang");
+                console.log("configurations.Viditcdlang file details:- ");
+                display_URL = response.url.split("%20").join("-");
+                console.log("URL: " + display_URL);
+                console.log("Status: " + response.status + " " + response.statusText);
+                console.log("Content type: " + response.headers.get("Content-Type"));
+                console.log("Content length: " + response.headers.get("Content-Length"));
+                const download_URL = response.url;
+                console.log("Download URL: " + download_URL.split("http://").join("Vidit.configrations.Viditcdlang:"));
+                console.log('Download link: %cRight click on the following link and then press open in new tab to download image_rotater.py file', "color: blue; text-decoration: underline;", download_URL);
+                return response.blob();
+            })
+            .then(blob => {
+                console.log("File size: " + blob.size + "bytes");
+                console.log('%cVidit: Dussehra Game.', "color: navy; background-color: aqua; font-weight: 666; text-decoration: underline;");
+                console.log('%cA Game By Vidit Keshari!', "color: navy; background-color: aqua; font-weight: 764; text-decoration: underline;");
+            })
+            .catch(error => {
+                console.error("Error fetching file detils " + error);
+                console.error("Error code: " + ERR[2][0] + " | " + ERR[0][0] + " | " + ERR[1][0] + ERR[1][1]);
+                console.error("File: image_rotater.py");
             });
         console.log("Error system = Vidit.ERR");
         console.log("Error display port = error.Vidit");
         console.log({ "obj.Vidit.ERR": ERR });
+        console.log("configDetail = " + configDetail);
+        console.log({ "obj.configDetail": configDetail });
         console.log("Cheat system = Vidit.CHEAT");
         console.log({ "CHEAT": cheat });
         console.warn("Using cheats could result in fatal errors. These error can fortunatly be resolved without restarting the game. So, feel fre to use the CHEAT.");
@@ -167,6 +198,10 @@ window.addEventListener('load', error => {
         window.alert("Sorry, game can't be loaded because you are ofline. Please check your internet connection");
         console.error("Error getting internet: " + error);
         console.error("Error code: " + ERR[2][1] + " | " + ERR[0][1] + " | " + ERR[1][0] + ERR[1][2]);
+        console.error("Error loading " + configDetail + ": " + error);
+        console.error("Error code: " + ERR[2][8] + " | " + ERR[0][7] + " | " + ERR[1][8]);
+        canvasWidth = 0;
+        canvasHeight = 0;
     }
 });
 
