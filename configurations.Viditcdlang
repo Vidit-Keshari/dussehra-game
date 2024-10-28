@@ -1,4 +1,3 @@
-#define Vidit Coding Language;
 #import net from Vidit;
 #import cmd from Vidit;
 #import call from Vidit;
@@ -9,18 +8,7 @@ using internet ${short} Vidit.net.internet;
 using go ${from} Vidit.cmd;
 using go ${short} Vidit.cmd.go;
 
-#Vidit.net.internet;
-#Vidit.cmd.go;
-
-namespace Vidit.net, Vidit.cmd;
 namespace Vidit ${for} call, config;
-
-#define usr;
-user = main.js--player;
-user = p5.js--player;
-user = Vidit: Dussehra Game--player;
-user.get(internet);
-str usr = user;
 
 if (got(internet)) {
 START; //Code start
@@ -34,7 +22,7 @@ config(dir:resources/).set(r);
 config(r:content:image);
 config(dir:r:py editors/).set(pye);
 config(pye:content:python);
-config(documentCodeHTML.getTAG{<head><script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script></head>});
+config(documentCodeHTML.getTAG{<head><script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script></head>}.src());
 
 debug(config);
 debug(p5);
@@ -54,7 +42,7 @@ function load() {
 
 function debug() {
     #define debug() ${for} {
-        Vidit.get(!error-code)
+        Vidit.get(errorless-code);
     }
 }
 
@@ -64,7 +52,7 @@ END; //Code end
 #Vidit Keshari;
 #Auth-or/enticated-person = Vidit;
 
-using Vidit.cmd --> throw('json')@'line-emp '+> 'line-!emp';
+using Vidit.cmd --> throw('json')@'line-emp' +> 'line-!emp';
 
 cmd.go(run, executable: "\`json");
 
@@ -72,8 +60,15 @@ cmd.go(run, executable: "\`json");
 {
     "configrationsSubstitute": "configurations.Viditcdlang",
     "works": default,
-    "fakeHack": false
+    "hack": false
+    "webpage": false,
+    "config": true,
+    "exeTerminalRun": false,
+    "LOCAL": true,
+    "GLOBAL": true,
+    "GLOBALMode": "gitRespository",
 };
+~~~json END;
 
-#File end;
 //Viditcdlang end file
+#File end;
