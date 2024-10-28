@@ -157,3 +157,10 @@ p {
         box-shadow: 10px 10px 30px blueviolet;
     }
 }
+
+#VGames {
+    width: 130px;
+    height: 170px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 27px rgb(102, 15, 184);
+}

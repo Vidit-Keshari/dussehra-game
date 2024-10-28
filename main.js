@@ -141,14 +141,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 console.log("Content type: " + response.headers.get("Content-Type"));
                 console.log("Content length: " + response.headers.get("Content-Length"));
                 const download_URL = response.url;
-                console.log("Download URL: " + download_URL.split("http://").join("Vidit.image_rotater.py:"));
+                console.log("Download URL: " + download_URL.split("http://").join("Vidit:image_rotater.py:"));
                 console.log('Download link: %cRight click on the following link and then press open in new tab to download image_rotater.py file', "color: blue; text-decoration: underline;", download_URL);
                 return response.blob();
             })
             .then(blob => {
-                console.log("File size: " + blob.size + "bytes");
-                console.log('%cVidit: Dussehra Game.', "color: navy; background-color: aqua; font-weight: 666; text-decoration: underline;");
-                console.log('%cA Game By Vidit Keshari!', "color: navy; background-color: aqua; font-weight: 764; text-decoration: underline;");
+                console.log("image-rotater.py File size: " + blob.size + "bytes");
             })
             .catch(error => {
                 console.error("Error fetching file detils " + error);
@@ -166,12 +164,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 console.log("Content type: " + response.headers.get("Content-Type"));
                 console.log("Content length: " + response.headers.get("Content-Length"));
                 const download_URL = response.url;
-                console.log("Download URL: " + download_URL.split("http://").join("Vidit.configrations.Viditcdlang:"));
+                console.log("Download URL: " + download_URL.split("http://").join("Vidit:configrations.Viditcdlang:"));
                 console.log('Download link: %cRight click on the following link and then press open in new tab to download image_rotater.py file', "color: blue; text-decoration: underline;", download_URL);
                 return response.blob();
             })
             .then(blob => {
-                console.log("File size: " + blob.size + "bytes");
+                console.log("configrations.Viditcdlang File size: " + blob.size + "bytes");
                 console.log('%cVidit: Dussehra Game.', "color: navy; background-color: aqua; font-weight: 666; text-decoration: underline;");
                 console.log('%cA Game By Vidit Keshari!', "color: navy; background-color: aqua; font-weight: 764; text-decoration: underline;");
             })
@@ -384,8 +382,9 @@ function gameRestart() {
 }
 
 function copyright() {
-    window.alert("copyright©, Vidit: Dussehra game. @All rights reserved.");
-    console.log("copyright©, Vidit: Dussehra game. @All rights reserved.");
+    window.alert("Copyright©, Vidit: Dussehra game. @All rights reserved. \n A VGames production.");
+    console.log("Copyright©, Vidit: Dussehra game. @All rights reserved. \n A VGames production.");
+
 }
 
 function aimCheat() {
