@@ -42,8 +42,9 @@ Added VGames logo,
 Improved configurations and fixed bugs in it. 
 :)
 ####
-### Game link (Again) given 
-[*here*](https://vidit-keshari.github.io/dussehra-game).
+
+> Game link (Again) given [*here*](https://vidit-keshari.github.io/dussehra-game).
+
 ### You may also like:-
 > Game: [Vidit: 2d-Minecraft](https://vidit-keshari.github.io/2d-Minecraft).
 > 
