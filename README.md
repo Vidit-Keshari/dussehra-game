@@ -46,6 +46,7 @@ Improved configurations and fixed bugs in it.
 [*here*](https://vidit-keshari.github.io/dussehra-game).
 ### You may also like:-
 > Game: [Vidit: 2d-Minecraft](https://vidit-keshari.github.io/2d-Minecraft).
+> 
 > Blog: [Vidit: 2d-Minecraft](https://github.com/Vidit-Keshari/2d-Minecraft).
 
 ![VGames logo](https://github.com/user-attachments/assets/2e8f2bd0-1854-484f-9f99-d8d690406e50)
