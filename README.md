@@ -10,20 +10,15 @@ Ignore the "**Harmful file**" warning if you really want to download Vidit.image
 ####
 ## About Versions:-
 ### v.1.0
-> Initiated game.
-
-> :)
+- Initiated game.
+- :)
 ####
 ### v.1.1
-> Added about section.
-
-> Improved styles.
-
-> Added version notation.
-
-> Fixed footer bug.
-
-> :)
+- Added about section.
+- Improved styles.
+- Added version notation.
+- Fixed footer bug.
+- :)
 ####
 ### v.1.1.2
 > Added configurations so that game does not lag due to heavy code.
