@@ -1,4 +1,3 @@
-# dussehra-game
 ## Vidit:Dussehra Game
 Vidit:Dussehra game is a new game by Vidit Keshari. It is available on https://vidit-keshari.github.io/dussehra-game/. More information in the game itself. :)
 ####
