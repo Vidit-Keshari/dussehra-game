@@ -49,7 +49,7 @@ Ignore the "**Harmful file**" warning if you really want to download Vidit.image
 - :)
 ####
 
-> Game link (Again) given [*here*](https://vidit-keshari.github.io/dussehra-game).
+> Game link (Again) [*here*](https://vidit-keshari.github.io/dussehra-game).
 
 > Please give a (posetive) feedback in the feedback area or directly in the form.
 
@@ -59,6 +59,11 @@ Ignore the "**Harmful file**" warning if you really want to download Vidit.image
 > Game: [Vidit: 2d-Minecraft](https://vidit-keshari.github.io/2d-Minecraft).
 
 > Blog: [Vidit: 2d-Minecraft](https://github.com/Vidit-Keshari/2d-Minecraft).
+
+## Discontinuation letter:
+This project is officially discontinued by VGames and will not recieve any updates. However, this game is not being removed.
+
+As a result any bugs or glitches will not be fixed. New features will not be added.
 
 ![VGames logo](https://github.com/user-attachments/assets/2e8f2bd0-1854-484f-9f99-d8d690406e50)
 
