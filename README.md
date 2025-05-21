@@ -62,6 +62,9 @@ Ignore the "**Harmful file**" warning if you really want to download Vidit.image
 ## Discontinuation letter:
 This project is officially discontinued by VGames and will not recieve any updates. However, currently this game is not being removed but maybe removed later.
 
+## Complete discontinuation
+This project has been completely discontinued by VGames and now been unpublished from github pages.
+
 As a result, any bugs or glitches will not be fixed. New features will not be added.
 
 ![VGames logo](https://github.com/user-attachments/assets/2e8f2bd0-1854-484f-9f99-d8d690406e50)
